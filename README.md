@@ -55,7 +55,7 @@ the [grant table](https://patentsview.org/download/data-download-tables)
 that you can see below. It also does some tidying up on the data to make
 it easier to access the data for download and to document your datasets.
 
-<img src="man/grants.png" width="100%" /> For the applications
+<img src="man/figures/grants.png" width="100%" /> For the applications
 (pregrants) and the grants page these tables are downloaded either to
 your working directory or to a destination you specify as follows. If
 the destination folder does not already exist it will be created. We

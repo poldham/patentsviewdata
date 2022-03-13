@@ -46,7 +46,7 @@ There are three main functions in the package.
 pv_meta() access the patentsview metadata table for applications or grants on the website. The function fetches either the application or the [grant table](https://patentsview.org/download/data-download-tables) that you can see below. It also does some tidying up on the data to make it easier to access the data for download and to document your datasets. 
 
 ```{r echo=FALSE}
-knitr::include_graphics("man/grants.png")
+knitr::include_graphics("man/figures/grants.png")
 ```
 For the applications (pregrants) and the grants page these tables are downloaded either to your working directory or to a destination you specify as follows. If the destination folder does not already exist it will be created. We recommend that you specify a grants and pregrant or applications folder. It will make life a lot simpler later on. 
 
