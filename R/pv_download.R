@@ -1,17 +1,18 @@
-#' download patentsview files
-#' Download one or more patentsview raw files
+#' @title Download PatentsView Data Files
+#' @description Download one or more PatentsView raw files using urls from a meta data table
+#' created by \code{pv_meta()}
 #' @param url url of the file to download
 #' @param dest destination for the files
 #' @param timeout time window for download
 #' @importFrom usethis ui_info
+#' @importFrom usethis ui_value
 #' @importFrom glue glue
 #' @importFrom purrr safely
 #' @importFrom purrr walk2
 #' @importFrom purrr walk
 #' @return
 #' @export
-#'
-#' @examples
+#' @examples \dontrun{pv_download(grant_meta$url[1], dest = "grants", timeout = 600)}
 pv_download <- function(url = NULL, dest = NULL, timeout = 600) {
 
 

@@ -2,8 +2,7 @@
 % Please edit documentation in R/pv_download.R
 \name{pv_download}
 \alias{pv_download}
-\title{download patentsview files
-Download one or mpre patentsview raw files}
+\title{Download PatentsView Data Files}
 \usage{
 pv_download(url = NULL, dest = NULL, timeout = 600)
 }
@@ -18,6 +17,9 @@ pv_download(url = NULL, dest = NULL, timeout = 600)
 
 }
 \description{
-download patentsview files
-Download one or mpre patentsview raw files
+Download one or more PatentsView raw files using urls from a meta data table
+created by \code{pv_meta()}
+}
+\examples{
+\dontrun{pv_download(grant_meta$url[1], dest = "grants", timeout = 600)}
 }
