@@ -86,7 +86,7 @@
 <h3 id="pv_meta">pv_meta()<a class="anchor" aria-label="anchor" href="#pv_meta"></a>
 </h3>
 <p>pv_meta() access the patentsview metadata table for applications or grants on the website. The function fetches either the application or the <a href="https://patentsview.org/download/data-download-tables" class="external-link">grant table</a> that you can see below. It also does some tidying up on the data to make it easier to access the data for download and to document your datasets.</p>
-<p><img src="man/grants.png" width="100%"> For the applications (pregrants) and the grants page these tables are downloaded either to your working directory or to a destination you specify as follows. If the destination folder does not already exist it will be created. We recommend that you specify a grants and pregrant or applications folder. It will make life a lot simpler later on.</p>
+<p><img src="reference/figures/grants.png" width="100%"> For the applications (pregrants) and the grants page these tables are downloaded either to your working directory or to a destination you specify as follows. If the destination folder does not already exist it will be created. We recommend that you specify a grants and pregrant or applications folder. It will make life a lot simpler later on.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">applications_meta</span> <span class="op">&lt;-</span> <span class="fu">pv_meta</span><span class="op">(</span>type <span class="op">=</span> <span class="st">"application"</span><span class="op">)</span>
 <span class="va">grants_meta</span> <span class="op">&lt;-</span> <span class="fu">pv_meta</span><span class="op">(</span>type <span class="op">=</span> <span class="st">"grant"</span><span class="op">)</span>
@@ -187,8 +187,8 @@
 <div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
-<li>`use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license</li>
+<li><a href="LICENSE.html">Full license</a></li>
+<li><small><a href="https://opensource.org/licenses/mit-license.php" class="external-link">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a></small></li>
 </ul>
 </div>
 
