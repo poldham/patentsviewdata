@@ -22,7 +22,8 @@
 #' @importFrom stringr str_replace_all
 #' @importFrom tools file_path_sans_ext
 #' @importFrom utils zip
-#' @examples \dontrun{applications <- pv_import("grants/application.tsv.zip")}
+#' @examples \dontrun{applications <- pv_import("grants/application.tsv.zip",
+#' meta_path = "grants/meta_grants.rds", save_as = ".qs", dest = "grants")}
 pv_import <- function(path = NULL, meta_path = NULL, save_as = NULL, dest = NULL) {
 
   # get the basename of the file from the path

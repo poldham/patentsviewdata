@@ -26,5 +26,6 @@ The function uses the vroom package to import tab separated files
 downloaded from the PatentsView data download site.
 }
 \examples{
-\dontrun{applications <- pv_import("grants/application.tsv.zip")}
+\dontrun{applications <- pv_import("grants/application.tsv.zip",
+meta_path = "grants/meta_grants.rds", save_as = ".qs", dest = "grants")}
 }
